@@ -1,9 +1,3 @@
-# Introduction to Bash Scripting
-
-***by Bobby Iliev***
-
-***The Summary :***
-
 In Bash, conditional expressions are used by the [[ compound command and the [built-in commands to test file attributes and perform string and arithmetic comparisons.
 
 Here is a list of the most popular Bash conditional expressions.
@@ -120,8 +114,8 @@ Here is a list of the most popular Bash conditional expressions.
 [[ ${arg1} -lt ${arg2} ]] #<
 [[ ${arg1} -ge ${arg2} ]] #>=
 [[ ${arg1} -gt ${arg2} ]] #>
-[[ test_case_1]] && [[ test_case_2]] #And
-[[ test_case_1]] || [[ test_case_2]] #Or
+[[ test_case_1 ]] && [[ test_case_2 ]] #And
+[[ test_case_1 ]] || [[ test_case_2 ]] #Or
 ```
 
-test
+***Source : Introduction to Bash Scripting by Bobby Iliev***

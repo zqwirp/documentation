@@ -53,3 +53,18 @@ or.. just.
 ```
 $ fatlabel
 ```
+
+---
+
+## etc
+
+```bash
+pandoc --pdf-engine=xelatex -V geometry:"top=2cm, bottom=2cm, left=2cm, right=2cm" -f markdown-raw_tex --toc -N newch1.md -o ch1.pdf
+```
+
+```bash
+enscript -1Gj -E[lang] --line-numbers [input] -o - | ps2pdf -sPAPERSIZE=a4 - [output.pdf]
+# 1 column
+# G fancy header
+# j print border
+```
