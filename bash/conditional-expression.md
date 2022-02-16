@@ -1,6 +1,6 @@
 In Bash, conditional expressions are used by the [[ compound command and the [built-in commands to test file attributes and perform string and arithmetic comparisons.
 
-**Note that `[[` is actually a command/program that returns either 0 (`true`) or 1 (`false`)**. Any program that obeys the same logic (like all base utils, such as grep(1) or ping(1)) can be used as condition.[^1]
+**Note that `[[` is actually a command/program that returns either 0 (`true`) or 1 (`false`).** Any program that obeys the same logic (like all base utils, such as grep(1) or ping(1)) can be used as condition.[^1]
 
 Here is a list of the most popular Bash conditional expressions.
 
