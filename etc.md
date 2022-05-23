@@ -61,3 +61,15 @@ pandoc --pdf-engine=xelatex -V geometry:"top=2cm, bottom=2cm, left=2cm, right=2c
 ```bash
 enscript -1j -E[lang] --line-numbers [input] -o - | ps2pdf -sPAPERSIZE=a4 - [output.pdf]
 ```
+
+```
+/usr/lib
+├── corepack@0.10.0
+├── node-gyp@9.0.0
+├── nopt@5.0.0
+├── npm@8.8.0
+├── prettier@2.6.2
+├── semver@7.3.7
+├── typescript-language-server@0.9.7
+└── yarn@1.22.19
+```
